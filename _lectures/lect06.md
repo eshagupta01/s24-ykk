@@ -1,5 +1,5 @@
 ---
-num: "Lecture 3"
+num: "Lecture 6"
 desc: ""
 ready: true
 lecture_date: 2024-04-18 15:30:00.00-7:00
@@ -56,3 +56,13 @@ print("list_append:", f2_time)
 * What are the problems of this approach?
 
 ## Asymptotic Behavior
+* We want to analyze approximately how fast an algorithm runs when the size of the input approaches infinity
+* So instead of calculating the raw time of how fast the algorithm runs on our computers, we can approximate the number of instructions the algorithm will take with respect to the size of the input
+
+## Recursion
+* Recursion is when a function contains a call to itself
+* The simplest case in a recursive solution is called the base case, the rest of the cases are called recursive cases in which we call the recursive function on a smaller input
+
+
+
+
